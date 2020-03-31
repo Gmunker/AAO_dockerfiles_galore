@@ -4,8 +4,3 @@ COPY . /app
 WORKDIR /app
 RUN /bin/sh -c 'npm install; npm cache clean --force'
 CMD npm start
-
-
-
-
-
